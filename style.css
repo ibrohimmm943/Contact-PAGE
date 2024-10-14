@@ -1,0 +1,308 @@
+
+
+.full-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    padding: 20px;
+    background-color: #243f2f; 
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-menu-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: right;
+    margin-left: 30px;
+}
+
+.number-time {
+    font-size: 12px;
+}
+
+.number-num {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+ .contact-page {
+    background-color: #243f2f;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-page h1 {
+    margin-bottom: 20px;
+font-family: Futura PT;
+font-size: 150px;
+font-weight: 400;
+line-height: 150px;
+text-align: left;
+color: #000000;
+margin-left: 125px ;
+
+}
+
+.contact-page p {
+    margin: 10px 0;
+font-size: 30px;
+display: flex;
+margin-left: 120px;
+}
+
+.contact-page .cmol{
+font-family: Futura PT;
+font-size: 70px;
+font-weight: 400;
+line-height: 91px;
+text-align: left;
+margin-left: 120px;
+}
+
+.contact-details {
+    margin: 20px 0;
+
+} 
+
+.map-container {
+    margin: 30px ;
+    
+}
+
+.map-container iframe {
+    width: 1410px;
+    height: 600px;
+        
+}
+
+/* img section */
+
+.image-section {
+    position: relative;
+    text-align: justify;
+    background: #171717;
+}
+
+.image-section img {
+     max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    color: #000;
+}
+
+.image-text {
+     position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+    
+}
+
+.image-text h2{
+    font-size: 36px;
+    margin-bottom: 20px ;
+font-family: Futura PT;
+font-weight: 400;
+line-height: 91px;
+text-align: left;
+
+}
+
+.image-text p{
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    
+}
+.image-text button {
+    padding: 20px 40px 20px 40px;
+    gap: 15px;
+    border-radius: 31px;
+    border: none;
+    opacity: 0px;
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+    
+}
+
+
+/* foter section */
+.footer {
+    background-color: #1b1b1b; 
+    padding: 40px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.full-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-left: 20px;
+  
+
+}
+
+.footer-menu li a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-menu li a:hover {
+    color: white;
+}
+
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-info a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+
+.footer-contact a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: white;
+}
+
+.footer-btn {
+    background-color: #d28f7e; /* Matching the button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-btn:hover {
+    background-color: #ba7a6b;
+}
+
+.footer-partners {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footer-partners img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-contact {
+        text-align: center;
+    }
+}
